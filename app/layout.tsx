@@ -5,7 +5,7 @@ import './globals.css'
 import { siteConfig } from '@/config/site'
 
 const inter = Inter({ subsets: ['latin'] })
-
+//ko
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
