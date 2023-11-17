@@ -41,14 +41,13 @@ const MarketingPage = () => {
         </h1>
         <div className="text-3xl md:text-6xl bg-gradient-to-r from-fuchsia-600 to-pink-600 text-white px-4 p-2 rounded-md pb-4 w-fit">
           elevate your property
-          
         </div>
       </div>
       <div className={cn(
         "text-sm md:text-xl text-neutral-400 mt-4 max-w-xs md:max-w-2xl text-center mx-auto",
         textFont.className,
       )}>
-      Elevate your property with EstateXellence, the cutting-edge SaaS solution for comprehensive property management. Whether you're a property owner, administrator, or user, our cloud-based platform empowers you to maintain and leverage essential data for the secure, eco-friendly, and efficient operation of your property throughout its lifecycle
+        Elevate your property with EstateXellence, the cutting-edge SaaS solution for comprehensive property management. Whether you&apos;re a property owner, administrator, or user, our cloud-based platform empowers you to maintain and leverage essential data for the secure, eco-friendly, and efficient operation of your property throughout its lifecycle
       </div>
       <Button className="mt-6" size="lg" asChild>
         <Link href="/sign-up">
