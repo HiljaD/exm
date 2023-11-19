@@ -16,5 +16,5 @@ const BimViewerLayout = ({
     </div>
   );
 };
-
+//kommentar
 export default BimViewerLayout;
