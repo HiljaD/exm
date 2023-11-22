@@ -1,5 +1,5 @@
 import React from 'react';
-
+//kommenti
 const BimViewerPage: React.FC = () => {
   const bimViewerUrl = process.env.REACT_APP_BIM_VIEWER_URL || '';
 
