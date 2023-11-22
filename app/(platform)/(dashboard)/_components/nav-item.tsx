@@ -43,7 +43,7 @@ export const NavItem = ({
 
   const routes = [
     {
-      label: "Boards",
+      label: "Buildings",
       icon: <Layout className="h-4 w-4 mr-2" />,
       href: `/organization/${organization.id}`,
     },
@@ -124,4 +124,4 @@ NavItem.Skeleton = function SkeletonNavItem() {
       <Skeleton className="h-10 w-full" />
     </div>
   );
-};
+}; 
